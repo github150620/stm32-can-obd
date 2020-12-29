@@ -121,11 +121,11 @@ int main() {
 		txMsg.IDE = CAN_Id_Standard;
 		txMsg.RTR = CAN_RTR_Data;
 		txMsg.StdId = 0x7E0;
-    txMsg.ExtId = 0x0;
-    //txMsg.IDE = CAN_ID_EXT;
+		txMsg.ExtId = 0x0;
+		//txMsg.IDE = CAN_ID_EXT;
 		//txMsg.RTR = CAN_RTR_Data;
-    //txMsg.StdId = 0x0;
-    //txMsg.ExtId = 0x18DB33F1;
+		//txMsg.StdId = 0x0;
+		//txMsg.ExtId = 0x18DB33F1;
 		txMsg.DLC = 8;
 		txMsg.Data[0] = 0x02;
 		txMsg.Data[1] = 0x01;
